@@ -10,6 +10,7 @@ nav {
 }
 
 nav a {
+  color: black;
   margin: 0 1rem;
   text-decoration: none;
 }
