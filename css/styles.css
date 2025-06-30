@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ffff;
+}
+
 .logo {
   content: url("/assets/images/logo_black.png");
   float: left;
