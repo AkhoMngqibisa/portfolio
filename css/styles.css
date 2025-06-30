@@ -1,3 +1,9 @@
+* {
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
 .logo {
   content: url("/assets/images/logo_black.png");
   float: left;
