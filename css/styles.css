@@ -8,6 +8,11 @@ body {
   background-color: #ffff;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   content: url("/assets/images/logo_black.png");
   float: left;
