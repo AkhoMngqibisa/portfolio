@@ -45,3 +45,8 @@ nav a.active {
   color: #000;
   border: 2px solid #000;
 }
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+}
