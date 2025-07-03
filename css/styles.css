@@ -50,3 +50,11 @@ nav a.active {
   text-align: center;
   padding: 4rem 2rem 2rem;
 }
+
+.hero .my-image {
+  content: url("/assets/images/Akhona.jpg");
+  height: 250px;
+  width: 250px;
+  justify-self: center;
+  margin: 2rem;
+}
