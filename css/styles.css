@@ -51,6 +51,10 @@ nav a.active {
   padding: 4rem 2rem 2rem;
 }
 
+.hero h2{
+  font-size: 1rem;
+}
+
 .hero .my-image {
   content: url("/assets/images/Akhona.jpg");
   height: 250px;
