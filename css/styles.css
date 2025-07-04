@@ -51,7 +51,13 @@ nav a.active {
   padding: 4rem 2rem 2rem;
 }
 
-.hero h2{
+.hero .info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.hero h2 {
   font-size: 1rem;
 }
 
