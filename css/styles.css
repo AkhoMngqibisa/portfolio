@@ -83,3 +83,9 @@ nav a.active {
 .hero button:hover {
   background-color: #dcdcdc;
 }
+
+.about {
+  background-color: #f8f8f8;
+  padding: 3rem 2rem;
+  text-align: center;
+}
