@@ -79,3 +79,7 @@ nav a.active {
   font-weight: 500;
   cursor: pointer;
 }
+
+.hero button:hover {
+  background-color: #dcdcdc;
+}
