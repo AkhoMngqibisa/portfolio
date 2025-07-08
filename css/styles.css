@@ -46,9 +46,14 @@ nav a.active {
   border-bottom: 2px solid #000;
 }
 
+/******************************* Hero Section ********************************/
 .hero {
   text-align: center;
-  padding: 4rem 1rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 1rem;
 }
 
 .hero .info {
@@ -64,8 +69,9 @@ nav a.active {
   text-align: left;
 }
 
-.hero h2 {
-  font-size: 1rem;
+.hero .info .profession {
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .hero .my-image {
