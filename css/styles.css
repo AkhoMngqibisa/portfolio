@@ -56,20 +56,12 @@ nav a.active {
   padding: 4rem 1rem;
 }
 
-.hero .info {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  place-items: center; */
-  display: grid;
-  grid-template-columns: 2fr 400px;
+.hero .info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.hero .info .name {
-  font-size: 2rem;
-  text-align: left;
-}
-
-.hero .info .profession {
+.hero .info h2 {
   font-size: 1.5rem;
   text-align: left;
 }
