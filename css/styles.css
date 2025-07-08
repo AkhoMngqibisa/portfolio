@@ -48,13 +48,20 @@ nav a.active {
 
 .hero {
   text-align: center;
-  padding: 4rem 2rem 2rem;
+  padding: 4rem 1rem 1rem;
 }
 
 .hero .info {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  place-items: center;
+  place-items: center; */
+  display: grid;
+  grid-template-columns: 2fr 400px;
+}
+
+.hero .info .name {
+  font-size: 2rem;
+  text-align: left;
 }
 
 .hero h2 {
