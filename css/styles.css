@@ -70,6 +70,12 @@ nav a.active {
   text-align: left;
 }
 
+.hero .info p {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
 .hero .my-image {
   content: url("/assets/images/Akhona.jpg");
   height: 250px;
