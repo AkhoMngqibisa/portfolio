@@ -76,11 +76,31 @@ nav a.active {
   text-align: left;
 }
 
-.hero .info .buttons{
+.hero .info .buttons {
   display: flex;
   gap: 1rem;
   margin-bottom: 1.5rem;
+
+  .btn {
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+
+  .btn-primary {
+    background: #f1f5f9;
+    color: #000;
+  }
+
+  .btn-secondary {
+    background: #1e293b;
+    color: #f1f5f9;
+  }
+
 }
+
 
 /* .hero button {
   margin-top: 1rem;
