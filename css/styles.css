@@ -102,22 +102,6 @@ nav a.active {
 
 }
 
-
-/* .hero button {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.hero button:hover {
-  background-color: #dcdcdc;
-} */
-
-
 .hero .my-image {
   content: url("/assets/images/Akhona.jpg");
   height: 250px;
