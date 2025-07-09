@@ -76,16 +76,13 @@ nav a.active {
   text-align: left;
 }
 
-.hero .my-image {
-  content: url("/assets/images/Akhona.jpg");
-  height: 250px;
-  width: 250px;
-  justify-self: center;
-  margin-top: 2rem;
-  clip-path: polygon(50% 0%, 93% 10%, 90% 90%, 50% 100%, 7% 90%, 10% 10%);
+.hero .info .buttons{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.hero button {
+/* .hero button {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   background-color: #f0f0f0;
@@ -97,7 +94,18 @@ nav a.active {
 
 .hero button:hover {
   background-color: #dcdcdc;
+} */
+
+
+.hero .my-image {
+  content: url("/assets/images/Akhona.jpg");
+  height: 250px;
+  width: 250px;
+  justify-self: center;
+  margin-top: 2rem;
+  clip-path: polygon(50% 0%, 93% 10%, 90% 90%, 50% 100%, 7% 90%, 10% 10%);
 }
+
 
 .about {
   background-color: #f8f8f8;
