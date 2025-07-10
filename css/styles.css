@@ -106,6 +106,13 @@ nav a.active {
 
 }
 
+.hero .info .socials {
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
 .hero .my-image {
   content: url("/assets/images/Akhona.jpg");
   height: 250px;
