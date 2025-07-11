@@ -107,6 +107,9 @@ nav a.active {
 }
 
 .hero .info .socials {
+  display: flex;
+  gap: 1rem;
+    
   img {
     width: 25px;
     height: 25px;
