@@ -91,13 +91,13 @@ nav a.active {
   }
 
   .btn-primary {
-    background: #f1f5f9;
-    color: #000;
+    background: #1e293b;
+    color: #f1f5f9;
   }
 
   .btn-secondary {
-    background: #1e293b;
-    color: #f1f5f9;
+    background: #f1f5f9;
+    color: #000;
   }
 
   button:hover {
