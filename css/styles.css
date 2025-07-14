@@ -131,7 +131,8 @@ nav a.active {
 }
 
 .hero .my-image {
- 
+  display: flex;
+  justify-content: center;
 }
 
 
