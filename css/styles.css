@@ -148,10 +148,12 @@ nav a.active {
   padding: 2rem 2rem;
 }
 
-.about h3 {
-  margin-bottom: 0.5rem;
-  font-weight: 700;
+.about h2 {
   font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f172b;
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
 .about p {
