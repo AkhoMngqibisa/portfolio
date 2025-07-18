@@ -180,6 +180,12 @@ nav a.active {
   transform: translateY(-5px);
 }
 
+.about .cards .card p {
+  color: #555;
+  font-size: 1rem;
+}
+
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
   .hero {
