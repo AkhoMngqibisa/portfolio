@@ -176,6 +176,10 @@ nav a.active {
   transition: transform 0.2s ease;
 }
 
+.about .cards .card:hover {
+  transform: translateY(-5px);
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
   .hero {
