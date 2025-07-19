@@ -185,6 +185,11 @@ nav a.active {
   font-size: 1.1rem;
 }
 
+.about .cards .card img {
+  width: 25px;
+  height: 25px;
+}
+
 .about .cards .card p {
   color: #555;
   font-size: 1rem;
