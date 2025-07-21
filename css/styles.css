@@ -149,9 +149,8 @@ nav a.active {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  max-width: 1200px;
   margin: auto;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -208,6 +207,20 @@ nav a.active {
   font-size: 1rem;
 }
 
+.about .image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .image img {
+  max-width: 320px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
 
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
