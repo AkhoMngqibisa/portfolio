@@ -167,7 +167,6 @@ nav a.active {
 }
 
 .about .info p {
-  max-width: 600px;
   color: #555;
   font-size: 1rem;
 }
