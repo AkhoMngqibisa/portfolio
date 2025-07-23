@@ -222,7 +222,10 @@ nav a.active {
 }
 
 /******************************* Education & Work Experience Section ********************************/
-
+.timeline {
+  padding: 60px 20px;
+  background: #ffff;
+}
 
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
