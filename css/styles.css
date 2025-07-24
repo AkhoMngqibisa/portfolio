@@ -249,6 +249,17 @@ nav a.active {
   padding: 0 30px;
 }
 
+.column h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.entry {
+  margin-bottom: 40px;
+  position: relative;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
   .hero {
