@@ -260,6 +260,14 @@ nav a.active {
   position: relative;
 }
 
+.entry .content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
   .hero {
