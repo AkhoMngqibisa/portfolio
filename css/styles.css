@@ -154,7 +154,7 @@ nav a.active {
 
 .about .info {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: minmax(300px, 1.5fr) minmax(200px, 1fr);
   justify-items: start;
   gap: 50px;
 }
@@ -236,6 +236,14 @@ nav a.active {
   color: #0f172b;
 }
 
+.timeline .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
   .hero {
@@ -246,5 +254,17 @@ nav a.active {
   .buttons,
   .socials {
     justify-content: center;
+  }
+}
+
+/* Mobile / small screens */
+@media (max-width: 768px) {
+  .about .info {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about .image {
+    place-self: center;
   }
 }
