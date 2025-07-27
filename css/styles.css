@@ -244,6 +244,17 @@ nav a.active {
   margin: auto;
 }
 
+.timeline .container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  background: linear-gradient(to bottom, #6a11cb, #2575fc);
+  transform: translateX(-50%);
+}
+
 .column {
   flex: 1;
   padding: 0 30px;
