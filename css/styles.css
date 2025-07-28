@@ -225,14 +225,14 @@ nav a.active {
 
 /******************************* Education & Work Experience Section ********************************/
 .timeline {
-  padding: 30px 20px;
+  padding: 20px 10px;
   background: #ffff;
 }
 
 .timeline h2 {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   color: #0f172b;
 }
 
@@ -240,7 +240,7 @@ nav a.active {
   display: flex;
   justify-content: space-between;
   position: relative;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -255,19 +255,27 @@ nav a.active {
   transform: translateX(-50%);
 }
 
+.left .entry::before {
+  right: -41px;
+}
+
+.right .entry::before {
+  left: -41px;
+}
+
 .column {
   flex: 1;
   padding: 0 30px;
 }
 
-.column h2 {
+.column h3 {
   text-align: center;
-  margin-bottom: 30px;
-  color: #444;
+  margin-bottom: 15px;
+  color: #555;
 }
 
 .entry {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -281,22 +289,25 @@ nav a.active {
 
 .entry .content h4 {
   font-size: 1.2rem;
-  margin-bottom: 10px;
   color: #222;
 }
 
 .entry .content span {
   font-size: 0.9rem;
   font-weight: bold;
-  color: #666;
+  color: #555;
   display: block;
-  margin-bottom: 10px;
 }
 
 .entry .content p {
   font-size: 0.95rem;
   line-height: 1.5;
   color: #555;
+}
+
+.entry .content ul {
+  padding-left: 20px;
+  font-size: 0.8rem;
 }
 
 /******************************* Responsive ********************************/
