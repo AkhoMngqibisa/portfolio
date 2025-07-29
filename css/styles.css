@@ -311,6 +311,10 @@ nav a.active {
   font-size: 0.8rem;
 }
 
+.entry .content li::marker {
+  color: #6a11cb;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
