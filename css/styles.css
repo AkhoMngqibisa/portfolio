@@ -161,7 +161,6 @@ nav a.active {
 
 .about .info h2 {
   font-size: 2rem;
-  font-weight: 600;
   color: #0f172b;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
@@ -313,6 +312,20 @@ nav a.active {
 
 .entry .content li::marker {
   color: #6a11cb;
+}
+
+/******************************* Skills Section ********************************/
+.skills {
+  background: #f7f7f7;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #0f172b;
 }
 
 /******************************* Responsive ********************************/
