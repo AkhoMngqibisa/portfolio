@@ -345,6 +345,10 @@ nav a.active {
   transition: transform 0.2s ease;
 }
 
+.skills .cards .card:hover {
+  transform: translateY(-5px);
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
