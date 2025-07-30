@@ -349,6 +349,16 @@ nav a.active {
   transform: translateY(-5px);
 }
 
+.skills .cards .card .icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f5f9;
+}
+
 .skills .cards .card img {
   width: 25px;
   height: 25px;
