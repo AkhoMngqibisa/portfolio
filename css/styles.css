@@ -349,6 +349,11 @@ nav a.active {
   transform: translateY(-5px);
 }
 
+.skills .cards .card img {
+  width: 25px;
+  height: 25px;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
