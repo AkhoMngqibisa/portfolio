@@ -117,7 +117,7 @@ nav a.active {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f1f5f9;
+    background: #7126D91A;
   }
 
   a:hover {
@@ -356,7 +356,7 @@ nav a.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f1f5f9;
+  background: #7126D91A;
 }
 
 .skills .cards .card img {
