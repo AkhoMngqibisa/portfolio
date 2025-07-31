@@ -10,9 +10,9 @@
   --font-4xl: 2.25rem;  /* 36px */
 
   /* Line heights */
-  --leading-xs: 1rem;   /* 16px */
-  --leading-sm: 1.25rem;/* 20px */
-  --leading-md: 1.5rem; /* 24px */
+  --leading-xs: 1rem;     /* 16px */
+  --leading-sm: 1.25rem;  /* 20px */
+  --leading-md: 1.5rem;   /* 24px */
 }
 
 * {
@@ -24,7 +24,7 @@
 body {
   background-color: #ffff;
   font-family: "Inter", sans-serif;
-  line-height: 1.5;
+  line-height: var(--leading-md);
 }
 
 header {
@@ -318,13 +318,17 @@ nav a.active {
 
 .entry .content p {
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: var(--leading-md);
   color: #6a11cb;
 }
 
 .entry .content ul {
   padding-left: 20px;
   font-size: 0.8rem;
+}
+
+.entry .content li {
+  line-height: var(--leading-xs);
 }
 
 .entry .content li::marker {
