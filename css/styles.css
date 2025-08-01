@@ -30,6 +30,7 @@ body {
   color: var(--foreground);
 }
 
+/******************************* Header Section ********************************/
 header {
   display: flex;
   justify-content: space-between;
