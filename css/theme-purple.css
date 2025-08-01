@@ -1,4 +1,4 @@
-.theme-purple {
+:root {
   --background: hsl(260, 50%, 98%);
   --foreground: hsl(250, 25%, 27%);
   --card: hsl(0, 0%, 100%);
