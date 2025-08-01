@@ -43,10 +43,10 @@ header {
 }
 
 .logo {
-  content: url("/assets/images/logo_black.png");
+  content: url("/assets/images/logo_purple.png");
   float: left;
   height: 30px;
-  width: 40px;
+  width: 50px;
 }
 
 nav {
@@ -54,7 +54,7 @@ nav {
 }
 
 nav a {
-  color: black;
+  color: var(--foreground);
   font-weight: 500;
   margin: 0 1rem;
   text-decoration: none;
@@ -62,8 +62,8 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  color: #000;
-  border-bottom: 2px solid #000;
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
 }
 
 /******************************* Hero Section ********************************/
