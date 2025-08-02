@@ -422,6 +422,13 @@ nav a.active {
   margin-top: auto;
 }
 
+.skills .cards .card .tags .tag {
+  background: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
