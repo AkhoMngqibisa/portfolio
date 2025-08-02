@@ -2,19 +2,30 @@
 
 :root {
   /* Font sizes */
-  --font-xs: 0.75rem;   /* 12px */
-  --font-sm: 0.875rem;  /* 14px */
-  --font-md: 1rem;      /* 16px */
-  --font-lg: 1.125rem;  /* 18px */
-  --font-xl: 1.25rem;   /* 20px */
-  --font-2xl: 1.5rem;   /* 24px */
-  --font-3xl: 1.875rem; /* 30px */
-  --font-4xl: 2.25rem;  /* 36px */
+  --font-xs: 0.75rem;
+  /* 12px */
+  --font-sm: 0.875rem;
+  /* 14px */
+  --font-md: 1rem;
+  /* 16px */
+  --font-lg: 1.125rem;
+  /* 18px */
+  --font-xl: 1.25rem;
+  /* 20px */
+  --font-2xl: 1.5rem;
+  /* 24px */
+  --font-3xl: 1.875rem;
+  /* 30px */
+  --font-4xl: 2.25rem;
+  /* 36px */
 
   /* Line heights */
-  --leading-xs: 1rem;     /* 16px */
-  --leading-sm: 1.25rem;  /* 20px */
-  --leading-md: 1.5rem;   /* 24px */
+  --leading-xs: 1rem;
+  /* 16px */
+  --leading-sm: 1.25rem;
+  /* 20px */
+  --leading-md: 1.5rem;
+  /* 24px */
   --leading-6xl: 3rem;
 }
 
@@ -389,6 +400,13 @@ nav a.active {
 .skills .cards .card img {
   width: 25px;
   height: 25px;
+}
+
+.skills .cards .card .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
 }
 
 /******************************* Responsive ********************************/
