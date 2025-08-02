@@ -415,6 +415,13 @@ nav a.active {
   color: #555;
 }
 
+.skills .cards .card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
