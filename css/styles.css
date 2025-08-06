@@ -444,6 +444,14 @@ nav a.active {
   color: #0f172b;
 }
 
+.projects .container {
+  padding: 1rem;
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  scroll-behavior: smooth;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
