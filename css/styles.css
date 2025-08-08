@@ -452,6 +452,17 @@ nav a.active {
   scroll-behavior: smooth;
 }
 
+.project-card {
+  min-width: 350px;
+  max-width: 350px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
+  position: relative;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
