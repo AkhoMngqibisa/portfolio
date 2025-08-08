@@ -482,6 +482,21 @@ nav a.active {
   color: #555;
 }
 
+.projects .container .card .tags {
+  margin: 0.8rem 0;
+}
+
+.projects .container .card .tags span {
+  display: inline-block;
+  background: #f0f0f5;
+  color: #333;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  margin: 3px;
+}
+
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
