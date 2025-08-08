@@ -476,6 +476,12 @@ nav a.active {
   margin-bottom: 1rem;
 }
 
+.projects .container .card p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
