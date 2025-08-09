@@ -513,6 +513,15 @@ nav a.active {
   transition: background 0.2s ease;
 }
 
+.projects .container .card .buttons .code {
+  background: #333;
+  color: #fff;
+}
+
+.projects .container .card .buttons .code:hover {
+  background: #000;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
