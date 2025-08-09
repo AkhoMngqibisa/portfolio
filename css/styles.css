@@ -522,6 +522,15 @@ nav a.active {
   background: #000;
 }
 
+.projects .container .card .buttons .demo {
+  background: #6a11cb;
+  color: #fff;
+}
+
+.projects .container .card .buttons .demo:hover {
+  background: #6a11cb;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
