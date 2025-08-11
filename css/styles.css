@@ -549,6 +549,10 @@ nav a.active {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
+.scroll-right {
+  right: -20px;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
