@@ -553,6 +553,10 @@ nav a.active {
   right: -20px;
 }
 
+.scroll-left {
+  left: -20px;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
