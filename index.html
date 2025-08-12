@@ -247,7 +247,7 @@
   <section class="projects" id="projects">
     <h2>Projects</h2>
     <button class="scroll-btn scroll-left" onclick="scrollProjects(-1)">&#8592;</button>
-    <div class="container" id="container">
+    <div class="container" id="projectsContainer">
       <!--Project 1-->
       <div class="card">
         <h3>Projects Architecture</h3>
@@ -283,6 +283,18 @@
     </div>
     <button class="scroll-btn scroll-right" onclick="scrollProjects(1)">&#8594;</button>
   </section>
+
+  <!--Scripts-->
+  <script>
+    function scrollProjects(direction) {
+      const container = document.getElementById('projectsContainer');
+      const scrollAmount = 400;
+      container.scrollBy({
+        left: direction * scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  </script>
 
 </body>
 </html>
