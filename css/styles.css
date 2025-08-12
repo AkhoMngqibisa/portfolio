@@ -549,11 +549,15 @@ nav a.active {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
-.scroll-right {
+.projects .scroll-btn:hover {
+  background: #5638d9;
+}
+
+.projects .scroll-right {
   right: -20px;
 }
 
-.scroll-left {
+.projects .scroll-left {
   left: -20px;
 }
 
