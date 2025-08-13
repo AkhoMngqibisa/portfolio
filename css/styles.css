@@ -3,29 +3,19 @@
 :root {
   /* Font sizes */
   --font-xs: 0.75rem;
-  /* 12px */
   --font-sm: 0.875rem;
-  /* 14px */
   --font-md: 1rem;
-  /* 16px */
   --font-lg: 1.125rem;
-  /* 18px */
   --font-xl: 1.25rem;
-  /* 20px */
   --font-2xl: 1.5rem;
-  /* 24px */
   --font-3xl: 1.875rem;
-  /* 30px */
   --font-4xl: 2.25rem;
-  /* 36px */
+  --font-5xl: 2.5rem;
 
   /* Line heights */
   --leading-xs: 1rem;
-  /* 16px */
   --leading-sm: 1.25rem;
-  /* 20px */
   --leading-md: 1.5rem;
-  /* 24px */
   --leading-6xl: 3rem;
 }
 
@@ -42,6 +32,31 @@ body {
   color: var(--foreground);
 }
 
+h1 {
+  font-size: var(--font-4xl);
+  line-height: var(--leading-6xl);
+}
+
+h2 {
+  font-size: var(--font-3xl);
+  font-weight: 600;
+  color: #0f172b;
+}
+
+h3 {
+  font-size: var(--font-2xl);
+}
+
+h4 {
+  font-size: var(--font-xl);
+  color: #0f172b;
+}
+
+p {
+  color: #62748e;
+  font-size: large;
+}
+
 /******************************* Header Section ********************************/
 header {
   display: flex;
@@ -49,7 +64,6 @@ header {
   padding: 1rem 1rem;
   align-items: center;
   position: sticky;
-  background-color: var(--background);
   top: 0;
   z-index: 10;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
@@ -90,22 +104,17 @@ nav a.active {
 }
 
 .hero .info h1 {
-  font-size: var(--font-4xl);
-  line-height: var(--leading-6xl);
+  font-size: var(--font-5xl);
   margin-bottom: 0.5rem;
   text-align: left;
 }
 
 .hero .info h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #0f172b;
   margin-bottom: 1rem;
   text-align: left;
 }
 
 .hero .info p {
-  color: #62748e;
   margin-bottom: 1.5rem;
   text-align: left;
 }
@@ -178,7 +187,6 @@ nav a.active {
 
 /******************************* About Section ********************************/
 .about {
-  background-color: #f1f5f9;
   padding: 2rem 1rem;
   justify-content: space-between;
   margin: auto;
@@ -194,15 +202,12 @@ nav a.active {
 }
 
 .about .info h2 {
-  font-size: 2rem;
-  color: #0f172b;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   text-align: left;
 }
 
 .about .info p {
-  color: #555;
   font-size: 1rem;
 }
 
@@ -242,7 +247,6 @@ nav a.active {
 
 .about .cards .card h3 {
   margin-bottom: 10px;
-  font-size: 1.1rem;
 }
 
 .about .cards .card img {
@@ -252,21 +256,17 @@ nav a.active {
 }
 
 .about .cards .card p {
-  color: #555;
   font-size: 1rem;
 }
 
 /******************************* Education & Work Experience Section ********************************/
 .timeline {
   padding: 2rem 1rem;
-  background: #ffff;
 }
 
 .timeline h2 {
   text-align: center;
-  font-size: 2rem;
   margin-bottom: 40px;
-  color: #0f172b;
 }
 
 .timeline .container {
@@ -304,7 +304,6 @@ nav a.active {
 .column h3 {
   text-align: center;
   margin-bottom: 15px;
-  color: #555;
 }
 
 .entry {
@@ -319,11 +318,6 @@ nav a.active {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   position: relative;
   min-height: 150px;
-}
-
-.entry .content h4 {
-  font-size: 1.2rem;
-  color: #222;
 }
 
 .entry .content span {
@@ -354,16 +348,13 @@ nav a.active {
 
 /******************************* Skills Section ********************************/
 .skills {
-  background: #f7f7f7;
   padding: 2rem 1rem;
   margin: 0 auto;
 }
 
 .skills h2 {
   text-align: center;
-  font-size: 2rem;
   margin-bottom: 40px;
-  color: #0f172b;
 }
 
 .skills .cards {
@@ -431,7 +422,6 @@ nav a.active {
 
 /******************************* Projects Section ********************************/
 .projects {
-  background: #ffff;
   padding: 2rem 1rem;
   margin: 0 auto;
   position: relative;
@@ -441,7 +431,6 @@ nav a.active {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #0f172b;
 }
 
 .projects .container {
@@ -464,7 +453,6 @@ nav a.active {
 }
 
 .projects .container .card h3 {
-  font-size: 1.2rem;
   margin-bottom: 0.8rem;
 }
 
@@ -479,7 +467,6 @@ nav a.active {
 .projects .container .card p {
   font-size: 0.9rem;
   margin: 0.5rem 0;
-  color: #555;
 }
 
 .projects .container .card .tags {
