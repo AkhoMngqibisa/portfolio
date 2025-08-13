@@ -10,7 +10,7 @@
 <br>
   <header>
     <div class="logo"></div>
-    <button class="menu-btn">☰</button>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
     <nav id="nav">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
@@ -287,6 +287,11 @@
 
   <!--Scripts-->
   <script>
+
+    function toggleMenu() {
+      document.getElementById('nav').classList.toggle('active');
+    }
+
     function scrollProjects(direction) {
       const container = document.getElementById('projectsContainer');
       const scrollAmount = 400;
