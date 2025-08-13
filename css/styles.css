@@ -125,7 +125,7 @@ nav a.active {
   }
 
   .btn-primary {
-    background: #1e293b;
+    background: var(--primary);
     color: #f1f5f9;
   }
 
@@ -336,7 +336,7 @@ nav a.active {
 .entry .content p {
   font-size: 0.95rem;
   line-height: var(--leading-md);
-  color: #6a11cb;
+  color: var(--primary);
 }
 
 .entry .content ul {
@@ -349,7 +349,7 @@ nav a.active {
 }
 
 .entry .content li::marker {
-  color: #6a11cb;
+  color: var(--primary);
 }
 
 /******************************* Skills Section ********************************/
@@ -423,7 +423,7 @@ nav a.active {
 }
 
 .skills .cards .card .tags .tag {
-  background: #f1f1f1;
+  background: #f0f0f5;
   padding: 5px 10px;
   border-radius: 6px;
   font-size: 0.85rem;
@@ -523,7 +523,7 @@ nav a.active {
 }
 
 .projects .container .card .buttons .demo {
-  background: #6a11cb;
+  background: var(--primary);
   color: #fff;
 }
 
@@ -535,7 +535,7 @@ nav a.active {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #6a11cb;
+  background: var(--primary);
   color: #fff;
   border: none;
   border-radius: 50%;
