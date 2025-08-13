@@ -100,17 +100,17 @@ nav a.active {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 2rem;
-  padding: 4rem 1rem;
+  padding: 6rem 1rem 3rem;
 }
 
 .hero .info h1 {
   font-size: var(--font-5xl);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   text-align: left;
 }
 
 .hero .info h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: left;
 }
 
@@ -126,27 +126,34 @@ nav a.active {
 
   .btn {
     padding: 0.6rem 1rem;
-    border-radius: 6px;
+    border-radius: 10px;
     font-weight: bold;
+    font-size: large;
     cursor: pointer;
+    min-height: 50px;
+    min-width: 50px;
     border: none;
-    min-height: 40px;
   }
 
   .btn-primary {
     background: var(--primary);
-    color: #f1f5f9;
+    color: var(--primary-foreground);
   }
 
   .btn-secondary {
-    background: #f1f5f9;
-    color: #000;
+    background: var(--secondary);
+    color: var(--secondary-foreground);
   }
 
-  button:hover {
-    background: #cbd5e1;
+  .btn-primary:hover {
+    background: var(--secondary);
+    color: var(--secondary-foreground);
   }
 
+  .btn-secondary:hover {
+    background: var(--primary);
+    color: var(--primary-foreground);
+  }
 }
 
 .hero .info .socials {
@@ -154,8 +161,8 @@ nav a.active {
   gap: 1rem;
 
   a {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -168,8 +175,8 @@ nav a.active {
   }
 
   img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -178,8 +185,8 @@ nav a.active {
   justify-content: center;
 
   img {
-    width: 350px;
-    height: 350px;
+    width: 370px;
+    height: 370px;
     object-fit: cover;
     border-radius: 50%;
   }
