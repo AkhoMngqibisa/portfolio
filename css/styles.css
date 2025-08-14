@@ -223,10 +223,6 @@ nav a.active {
   text-align: left;
 }
 
-.about .info p {
-  font-size: 1rem;
-}
-
 .about .image {
   display: flex;
   justify-content: center;
@@ -234,8 +230,8 @@ nav a.active {
 }
 
 .about .image img {
-  max-width: 320px;
-  height: 300px;
+  max-width: 250px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
@@ -621,14 +617,13 @@ nav a.active {
   .menu-btn {
     display: block;
   }
-}
 
-.about .info {
-  grid-template-columns: 1fr;
-  gap: 20px;
-}
+  .about .info {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 
-.about .image {
-  place-self: center;
-}
+  .about .image {
+    place-self: center;
+  }
 }
