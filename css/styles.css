@@ -206,6 +206,12 @@ nav a.active {
   padding: 2rem 1rem;
 }
 
+.about h2 {
+  position: relative;
+  text-align: center;
+}
+
+
 /* 
 .about .info {
   display: grid;
