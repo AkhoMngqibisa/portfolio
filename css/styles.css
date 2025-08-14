@@ -202,14 +202,11 @@ nav a.active {
 }
 
 /******************************* About Section ********************************/
-/* .about {
+.about {
   padding: 2rem 1rem;
-  justify-content: space-between;
-  margin: auto;
-  gap: 20px;
-  flex-wrap: wrap;
 }
 
+/* 
 .about .info {
   display: grid;
   grid-template-columns: minmax(300px, 1.5fr) minmax(200px, 1fr);
