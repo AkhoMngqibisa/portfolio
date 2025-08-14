@@ -202,7 +202,7 @@ nav a.active {
 }
 
 /******************************* About Section ********************************/
-.about {
+/* .about {
   padding: 2rem 1rem;
   justify-content: space-between;
   margin: auto;
@@ -269,7 +269,7 @@ nav a.active {
 
 .about .cards .card p {
   font-size: 1rem;
-}
+} */
 
 /******************************* Education & Work Experience Section ********************************/
 .timeline {
