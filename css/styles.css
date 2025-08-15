@@ -216,7 +216,7 @@ nav a.active {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
@@ -228,6 +228,19 @@ nav a.active {
   flex: 1 1 350px;
   display: flex;
   justify-content: center;
+}
+
+.about .container .image img {
+  width: 220px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: contain;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease;
+}
+
+.about .container .image img:hover {
+  transform: scale(1.05);
 }
 
 /* 
