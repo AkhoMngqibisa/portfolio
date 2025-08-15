@@ -220,7 +220,7 @@ nav a.active {
   flex-wrap: wrap;
 }
 
-.about .container p {
+.about .container .details {
   flex: 1 1 500px;
 }
 
