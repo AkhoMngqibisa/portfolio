@@ -61,12 +61,15 @@ p {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1rem;
   align-items: center;
+  padding: 1rem 1rem;
   position: sticky;
   top: 0;
   z-index: 10;
+  background-color: var(--background);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  backdrop-filter: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .logo {
