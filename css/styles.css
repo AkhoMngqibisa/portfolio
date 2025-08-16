@@ -460,12 +460,10 @@ nav a.active {
 
 .projects h2 {
   text-align: center;
-  font-size: 2rem;
   margin-bottom: 40px;
 }
 
 .projects .container {
-  padding: 1rem 2rem 1rem 2rem;
   display: flex;
   overflow-x: auto;
   gap: 1.5rem;
