@@ -388,13 +388,11 @@ nav a.active {
 
 .skills .cards .card {
   background: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  display: flex;
-  flex-direction: column;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
   justify-content: space-between;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skills .cards .card:hover {
@@ -405,10 +403,12 @@ nav a.active {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
   background: #7126D91A;
+  display: inline-flex;
+  vertical-align: sub;
+  margin-right: 10px;
 }
 
 .skills .cards .card img {
@@ -416,11 +416,10 @@ nav a.active {
   height: 25px;
 }
 
-.skills .cards .card .title {
+.skills .cards .card h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  padding-top: 1rem;
 }
 
 .skills .cards .card .description {
