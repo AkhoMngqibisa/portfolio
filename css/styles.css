@@ -274,12 +274,21 @@ nav a.active {
   margin-bottom: 10px;
 }
 
-.about .cards .card img {
-  width: 30px;
-  height: 30px;
-  vertical-align: text-bottom;
+.about .cards .card .icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
   align-items: center;
-  margin-right: 5px;
+  justify-content: center;
+  background: #7126D91A;
+  display: inline-flex;
+  vertical-align: sub;
+  margin-right: 10px;
+}
+
+.about .cards .card img {
+  width: 25px;
+  height: 25px;
 }
 
 /******************************* Education & Work Experience Section ********************************/
