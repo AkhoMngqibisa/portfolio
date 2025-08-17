@@ -471,8 +471,9 @@ nav a.active {
 }
 
 .projects .container .card {
-  min-width: 350px;
-  max-width: 350px;
+  min-width: 450px;
+  max-width: 500px;
+  height: 590px;
   background: #fff;
   border-radius: 12px;
   padding: 1.5rem;
@@ -487,7 +488,7 @@ nav a.active {
 
 .projects .container .card img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -508,13 +509,12 @@ nav a.active {
   padding: 4px 10px;
   font-size: 0.8rem;
   border-radius: 6px;
-  margin: 3px;
+  margin: 2px;
 }
 
 .projects .container .card .buttons {
   display: flex;
   gap: 10px;
-  margin-top: 1rem;
 }
 
 .projects .container .card .buttons .btn {
