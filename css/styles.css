@@ -529,21 +529,23 @@ nav a.active {
 }
 
 .projects .container .card .buttons .code {
-  background: #333;
-  color: #fff;
+  background: var(--primary);
+  color: var(--primary-foreground);
 }
 
 .projects .container .card .buttons .code:hover {
-  background: #000;
+  background: var(--secondary);
+  color: var(--secondary-foreground);
 }
 
 .projects .container .card .buttons .demo {
-  background: var(--primary);
-  color: #fff;
+  background: var(--secondary);
+  color: var(--secondary-foreground);
 }
 
 .projects .container .card .buttons .demo:hover {
-  background: #6a11cb;
+  background: var(--primary);
+  color: var(--primary-foreground);
 }
 
 .projects .scroll-btn {
