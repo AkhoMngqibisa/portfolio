@@ -585,6 +585,22 @@ nav a.active {
   left: 0px;
 }
 
+/******************************* Contact Section ********************************/
+.contact {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+}
+
+.contact .header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact .header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
