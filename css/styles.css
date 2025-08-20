@@ -612,6 +612,20 @@ nav a.active {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
+.contact .container .info h3 {
+  margin-bottom: 1rem;
+  font-size: var(--font-xl)
+}
+
+.contact .container .info .item {
+  margin-bottom: 1rem;
+}
+
+.contact .container .info .item strong {
+  display: block;
+  font-weight: bold;
+}
+
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
 
