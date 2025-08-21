@@ -603,14 +603,15 @@ nav a.active {
 .contact .container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 2rem;
+  gap: 20px;
   align-items: start;
 }
 
 .contact .container .info {
   padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .contact .container .info h3 {
@@ -659,6 +660,42 @@ nav a.active {
     height: 30px;
   }
 }
+
+.contact .container .form {
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact .container .form .form-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact .container .form .form-group input,
+.contact .container .form .form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: var(--font-md);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.contact .container .form .form-group input:focus,
+.contact .container .form .form-group textarea:focus {
+  border-color: var(--primary);
+}
+
+.contact .container .form .form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
 
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
