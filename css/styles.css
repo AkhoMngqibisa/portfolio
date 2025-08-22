@@ -780,4 +780,8 @@ nav a.active {
   .about .image {
     place-self: center;
   }
+
+  .contact .container {
+    grid-template-columns: 1fr;
+  }
 }
