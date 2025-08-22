@@ -468,6 +468,13 @@ nav a.active {
   overflow-x: auto;
   gap: 1.5rem;
   scroll-behavior: smooth;
+  /* keep scrollbar functional but hidden */
+  scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none; /* for Internet Explorer and Edge */
+}
+
+.projects .container::-webkit-scrollbar {
+  display: none;/* for Chrome, Safari, Opera */
 }
 
 .projects .container .card {
@@ -583,6 +590,7 @@ nav a.active {
 
 .projects .scroll-left {
   left: 0px;
+  z-index: 1;
 }
 
 /******************************* Contact Section ********************************/
