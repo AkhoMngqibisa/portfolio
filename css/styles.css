@@ -681,7 +681,7 @@ nav a.active {
   padding: 0.8rem;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: var(--font-md);
+  font-size: var(--font-ms);
   outline: none;
   transition: border-color 0.2s ease;
 }
@@ -694,6 +694,19 @@ nav a.active {
 .contact .container .form .form-group textarea {
   min-height: 120px;
   resize: vertical;
+}
+
+.contact .container .form .btn {
+  display: inline-block;
+  width: 100%;
+  padding: 0.8rem;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: var(--font-ms);
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 
