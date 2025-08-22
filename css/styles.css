@@ -709,6 +709,10 @@ nav a.active {
   transition: background 0.3s ease;
 }
 
+.contact .container .form .btn:hover {
+  background: var(--secondary);
+  color: var(--secondary-foreground);
+}
 
 /******************************* Responsive ********************************/
 @media (max-width: 900px) {
