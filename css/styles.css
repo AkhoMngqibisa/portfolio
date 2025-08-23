@@ -23,6 +23,7 @@
   margin: 1px;
   padding: 1px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -469,12 +470,15 @@ nav a.active {
   gap: 1.5rem;
   scroll-behavior: smooth;
   /* keep scrollbar functional but hidden */
-  scrollbar-width: none; /* for Firefox */
-  -ms-overflow-style: none; /* for Internet Explorer and Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+  -ms-overflow-style: none;
+  /* for Internet Explorer and Edge */
 }
 
 .projects .container::-webkit-scrollbar {
-  display: none;/* for Chrome, Safari, Opera */
+  display: none;
+  /* for Chrome, Safari, Opera */
 }
 
 .projects .container .card {
