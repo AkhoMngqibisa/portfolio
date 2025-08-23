@@ -390,10 +390,16 @@
     <!--Scripts-->
     <script>
 
+    /**
+     * Function to toggle a menu
+     */
       function toggleMenu() {
         document.getElementById('nav').classList.toggle('active');
       }
 
+    /**
+     * Function to make the scroll work
+     */
       function scrollProjects(direction) {
         const container = document.getElementById('projectsContainer');
         const scrollAmount = 400;
@@ -402,6 +408,42 @@
           behavior: 'smooth'
         });
       }
+
+    /**
+     * Function to set up an actve navigation section
+     */
+    function setupActiveNavTracking(navSelector = '#nav', sectionSelector = 'section', thresholdValue= 0.5) {
+      const sections = document.querySelectorAll(sectionSelector);
+      const navLinks = document.querySelectorAll(`${navSelector} a`);
+
+      const observer = new IntersectionObserver (
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const id = entry.target.getAttribute('id');
+              navLinks.forEach((link) => link.classList.remove('active'));
+              const activeLink = document.querySelector(`${navSelector} a[href="#${id}"]`);
+              if (activeLink) {
+                activeLink.classList.add('active');
+              }
+            }
+          });
+        },
+        {
+          threshold: thresholdValue,
+        }
+      );
+      
+      sections.forEach((section) => {
+        observer.observe(section);
+      });
+    }
+
+      // Call the function after DOM is ready
+    document.addEventListener('DOMContentLoaded', () => {
+      setupActiveNavTracking(); // Uses default selectors
+    });
+    
     </script>
 
   </body>
