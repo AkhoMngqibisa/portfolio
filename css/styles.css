@@ -612,7 +612,6 @@ nav a.active {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
-  align-items: start;
 }
 
 .contact .container .info {
