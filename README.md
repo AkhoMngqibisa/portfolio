@@ -13,8 +13,42 @@ This portfolio was built to present who I am as a developer, my skills, past wor
 5. Responsive design - Works on both desktop and mobile.
 
 ## Built With
-
-### This project primarily uses:
+#### This project primarily uses:
 1. HTML
 2. CSS
 3. JavaScript
+
+## Installation (Run Locally)
+#### To run this project locally, follow these steps:
+
+1. Clone the repository
+````
+git clone https://github.com/AkhoMngqibisa/portfolio.git
+````
+
+2. Navigate to the project directory
+````
+cd portfolio
+````
+
+3. Open the project in a browser
+````
+open index.html
+````
+Or simply open index.html in your favorite browser.
+
+## Live Demo
+Coming soon
+
+## Contributin
+#### Contributions are welcome! If you want to help improve this portfolio:
+
+1. Fork the repository
+2. Create a new branch (git checkout -b feature-name)
+3. Commit your changes (git commit -m "Add feature")
+4. Push to the branch (git push)
+5. Open a pull request
+
+
+## License
+This project is open-source feel free to use or adapt it for your own portfolio.
